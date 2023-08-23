@@ -30,7 +30,7 @@ export const Model: React.FC<JSX.IntrinsicElements['group']> = props => {
   const modelSnap = useSnapshot(modelState);
   const { nodes, materials } = useGLTF(modelPath) as GLTFResult;
 
-  const groupRef = useAnimation()
+  const groupRef = useAnimation() as React.Ref<THREE.Group>
   const [matcapBody] = useMatcapTexture(modelSnap.texture.body, 512);
   const [matcapJoints] = useMatcapTexture(modelSnap.texture.joint, 512);
 
