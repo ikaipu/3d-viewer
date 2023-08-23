@@ -1,4 +1,4 @@
-export const AnimationNames = ['walking', 'flair', 'dancing', 'dancing2', 'dynamic_pose'] as const
+export const AnimationNames = ['catwalk_walk', 'drunk_walking', 'start_walking', 'walker_walk', 'walking1', 'walking2', 'wheelbarrow_walk'] as const
 
 export const TextureNames = [
     '3A2412_A78B5F_705434_836C47',
